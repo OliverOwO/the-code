@@ -1,0 +1,271 @@
+  // Start is called before the first frame update
+    void Start()
+    {
+        //the start of the story 
+        Debug.Log("It was just a normal day in your town");
+        Debug.Log("Your parents were out on a date and you and your brother were watching the newest episode of How I met your mother");
+        Debug.Log("During the show an important message apperaed on the tv interupting the tv show");
+        Debug.Log("'Breaking news a new out break' before the person can ever finsih they change");
+        Debug.Log("'What was that' your brother Jermery screams");
+        Debug.Log("You jump up and look out your window and see people eating other people");
+        Debug.Log("You close your window fast and turn around 'we are leaving get things we need. We've watched all TWD'");
+        Debug.Log("Jermery cries and get up and start to get ready");
+        Debug.Log("You can either 'a' go get all the food and things you'll need or 'b' try to help your grandma outside");
+
+
+        
+        
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+
+        //your going to survie 
+        if (Input.GetKeyDown("a"))
+        {
+            Debug.Log("-------------------------------------------------------------------------------------");
+            Debug.Log("You move from the window and start to head upstairs to your room");
+            Debug.Log("You seem Jermey packing away all the things he needs.You head to your room");
+            Debug.Log("You grab your biggest and most able to carry backpack and pack up clothes");
+            Debug.Log("You leave enough room for some food that will last for a month.");
+            Debug.Log("You head downstairs and pack up some can off nonperishable food");
+            Debug.Log("Jermey comes down with a bag of supplies. He also has an empty duffel bag");
+            Debug.Log("He starts to fill it up wiht more cans");
+            Debug.Log("As he finsihes you start to think of ways to get out of the house");
+            Debug.Log("You can either use 'c' car or 's' walk somewheres");
+
+        }
+
+
+        //grandma is dead you are too 
+        if (Input.GetKeyDown("b"))
+        {
+            Debug.Log("-----------------------------------------------------------------------------------------------");
+            Debug.Log("You see your grandma outside. Wihtout thinking you open the door running to her");
+            Debug.Log("'Help me' granny cries as the zombie takes a bite out of her shoulder");
+            Debug.Log("You run to her and see the bite and crie out");
+            Debug.Log("While your crying you get bite and the zombies start to pile up on you ");
+            Debug.Log("You die and live the rest of your life as a zombie");
+        }
+
+        //walking but jermey is dead 
+        if(Input.GetKeyDown("s"))
+        {
+            Debug.Log("------------------------------------------------------------------------------");
+            Debug.Log("You start to walk with the bags");
+            Debug.Log("the noise draws the zombies towards you. You can't run because of the duffel bag");
+            Debug.Log("you drop the duffel bag but Jermey isn't behind you");
+            Debug.Log("You turn around and see him getting eaten");
+            Debug.Log("You can either 'z'run over to him or 'x' you can move on without him");
+        
+        }
+
+
+        if(Input.GetKeyDown("z"))
+        {
+            Debug.Log("-----------------------------------------------------------------------------");
+            Debug.Log("you stupidly run over to your already dead brother");
+            Debug.Log("you try to help him but he's dead");
+            Debug.Log("You don't even realize that you being eaten into. You cry out but it's too late");
+            Debug.Log("You and your brother are now zombies");
+        }
+
+
+        if(Input.GetKeyDown("x"))
+        {
+            Debug.Log("-----------------------------------------------------------------------------");
+            Debug.Log("you just keep moving");
+            Debug.Log("you trip and guess what");
+            Debug.Log("theres a zombie waiting to get you. you get eaten and you die");
+
+        }
+
+        //in the car 
+        if (Input.GetKeyDown("c"))
+        {
+            Debug.Log("------------------------------------------------------------------------");
+            Debug.Log("You grab the keys to your car and head out the door of the garage");
+            Debug.Log("You throw your bags in the car and start up the car");
+            Debug.Log("Jermey grabs the gasoline cans that are full and put them in the back");
+            Debug.Log("You start the car as soon as Jermey sit down ");
+            Debug.Log("You press the garge door opener botton and drive away from your house");
+            Debug.Log("'Grandma' Jermey cries. You look over and see your zombie grandma coming after the car");
+            Debug.Log("You drive away not look back as a tear goes down your face");
+            Debug.Log("You can either head to 'd' the place of the date your parents are at or 'h' Dicks sporting goods");
+
+        }
+
+        //the date 
+        if (Input.GetKeyDown("d"))
+        {
+            Debug.Log("-------------------------------------------------------------------------");
+            Debug.Log("You start to drive in the direction of the place they are at");
+            Debug.Log("You're hitting Zombies left and right just wanting to get there");
+            Debug.Log("Once your there you see the place. You don't get out cause you knoe they ate outside");
+            Debug.Log("As your driving by you see your dad....");
+            Debug.Log("He's a zmobie and has his organs hanging out");
+            Debug.Log("You can't see your mom.");
+            Debug.Log("You can either go to 'h' to dicks or 's' spend your time finding your mom");
+        }
+
+
+
+        //finding your mom
+        if(Input.GetKeyDown("s"))
+        {
+            Debug.Log("--------------------------------------------------------------------------");
+            Debug.Log("You start to cry a little but because you can't find your mom");
+            Debug.Log("Your dad is just laying there and you have to move on");
+            Debug.Log("You can go to 'h' to go to dicks or 'j' to just drive around");
+        }
+
+
+        //dicks 
+        if (Input.GetKeyDown("h"))
+        {
+            Debug.Log("------------------------------------------------------------------------");
+            Debug.Log("You satrt to head over to dicks to go gather up weapons");
+            Debug.Log("The only weapon on you right now is your great grandfathers hatchet that was in the garge");
+            Debug.Log("Your brother is passed out next to you sleeping, it's not long before you get there");
+            Debug.Log("you see all the cars in the parking lot and all the people just roaming around");
+            Debug.Log("You stop in the back where all the zombies can't hear you");
+            Debug.Log("you get out locking the car with your brother inside");
+            Debug.Log("you start to make your way inside. When suddenly your brother wakes up");
+            Debug.Log("He's looking around and you wave at him so he knows your alive");
+            Debug.Log("He calms down and he is just looking at you");
+            Debug.Log("You can either 'q' go back to your brother or 'u' just keep on going");
+
+        }
+
+
+        //going back from your brother
+        if(Input.GetKeyDown("q"))
+        {
+            Debug.Log("-----------------------------------------------------------------");
+            Debug.Log("you sneak your way back to your brother");
+            Debug.Log("You didn't want him to be by himself");
+            Debug.Log("Once you get to the car he hops out and you start mamking your way back to inside");
+            Debug.Log("On the way tho you had to kill maybe 3 zombies");
+            Debug.Log("You take a look inside and notice not a lok of zombies are in there");
+            Debug.Log("You head inside. You can either go to 't' to the bows or 'y' the guns and amo");
+        }
+
+
+        //just by yourself
+        if(Input.GetKeyDown("u"))
+        {
+            Debug.Log("------------------------------------------------------------------------");
+            Debug.Log("You sign to your to your brother to just stay there and you'll be back");
+            Debug.Log("On the way you've killed all the zombies that have noticed you");
+            Debug.Log("Not being a scarred cat you cut open some of them and throw the guts and organs on to you");
+            Debug.Log("YOu can now walk through and not get noticed");
+            Debug.Log("Once inside you can either go to 't' to the bow or 'y' to the guns and amo"); 
+
+        }
+
+
+        //bow
+        if(Input.GetKeyDown("t"))
+        {
+            Debug.Log("------------------------------------------------------------------------------");
+            Debug.Log("you sneak your way up to the space that has the bows");
+            Debug.Log("Once your up there you see the bow that you had been using all of your life");
+            Debug.Log("You grab the bow and almost all the arrows");
+            Debug.Log("You can 'p' grab a bag for all the arrows or 'l' to just get out of there");
+
+        }
+
+        //guns
+        if (Input.GetKeyDown("y"))
+        {
+            Debug.Log("---------------------------------------------------------------------------");
+            Debug.Log("You head over to the guns section");
+            Debug.Log("you have no idea which guns to grab so you grab all the guns and some of the ammo");
+            Debug.Log("You're arms can't hold very much");
+            Debug.Log(" you cant 'r' grab a duffel bag or 'm' to just get out of there");
+        }
+
+
+        //bag for arrows 
+        if (Input.GetKeyDown("p")) 
+        {
+            Debug.Log("----------------------------------------------------------------------");
+            Debug.Log("You grab the nearset bag that is closets to you");
+            Debug.Log("you shove all the arrows into the bag and start to head out");
+            Debug.Log("you run to the car and hop in. Zombies had started to follow you");
+            Debug.Log("you can drive 'o' to where you think your mother is or you can go to 'w' and just find a spot to call home");
+
+        }
+
+        //not putting arrows in the bag
+        if(Input.GetKeyDown("l"))
+        {
+            Debug.Log("-------------------------------------------------------------------------------");
+            Debug.Log("you run right past the bags not even looking back");
+            Debug.Log("As your running you're killing the zombies on the way");
+            Debug.Log("the arrows fall down and you stop to pick them up");
+            Debug.Log("a zombie comes out of no where and bits you");
+            Debug.Log("you begin to cry and try to get to jermey");
+            Debug.Log("but you can't get close to him and sadly you're being eaten by a zombie");
+       
+        }
+
+        //bag for guns and amo
+
+        if (Input.GetKeyDown("r"))
+        {
+            Debug.Log("----------------------------------------------------------------------");
+            Debug.Log("You grab the nearset bag that is closets to you");
+            Debug.Log("you shove all the guns and the ammo  into the bag and start to head out");
+            Debug.Log("you run to the car and hop in. Zombies had started to follow you");
+            Debug.Log("you can drive 'o' to where you think your mother is or you can go to 'w' and just find a spot to call home");
+
+        }
+
+        //dropping the ammo 
+
+        if (Input.GetKeyDown("m"))
+        {
+            Debug.Log("-------------------------------------------------------------------------------");
+            Debug.Log("you run right past the bags not even looking back");
+            Debug.Log("As your running you're killing the zombies on the way");
+            Debug.Log("the arrows fall down and you stop to pick them up");
+            Debug.Log("a zombie comes out of no where and bits you");
+            Debug.Log("you begin to cry and try to get to jermey");
+            Debug.Log("but you can't get close to him and sadly you're being eaten by a zombie");
+
+        }
+
+
+        //going to where your mom may be
+
+        if (Input.GetKeyDown("o"))
+        {
+            Debug.Log("--------------------------------------------------------------------------------");
+            Debug.Log("you turn on the car your brother is going through the duffel bag of all the weapons you had grabbed");
+            Debug.Log("as he's looking you start to drive away");
+            Debug.Log("'where do you think mom is right now' you ask your brother");
+            Debug.Log("'I think shes at the summer home. it was her favortie place to go to' he says as he pulls out an arrow");
+            Debug.Log("you begin driving on the way there");
+
+            Debug.Log("----time skip----");
+            Debug.Log("As your nearing the house you see this guy and a little girl running for their lifes");
+            Debug.Log("you can either 'e' pick them up or 'f' just drive by");
+        }
+
+        //just finding a place thats home
+        
+        if(Input.GetKeyDown("w"))
+        {
+            Debug.Log("----------------------------------------------------------------------------------");
+            Debug.Log("'Where do you think we should go' you ask jerm.");
+            Debug.Log("'I have no idea maybe we should judt drive around till we find a place");
+            Debug.Log(" You're just start driving around looking for a place. then you think if you should leave the city or not");
+            Debug.Log(" if you wanna leave the city 'g' if you wanna stay in the city 'i' ");
+        }
+
+
+
+
+    }
