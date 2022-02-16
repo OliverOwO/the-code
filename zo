@@ -84,20 +84,97 @@
             Debug.Log(" You see something that you never wanted to see in your life");
             Debug.Log(" You see your dad who is one of those creatures just walking around");
             Debug.LOg(" you stop the car and you can't seem to bring yourself to the idea of seeing him like that");
-            Debug.Log(" you can either 'g' go outside and kill your dad or 'f' go and ger a bow");
+            Debug.Log(" you can either 'g' go outside and kill your dad or 'f' go and get a bow");
         }
         
         
         //going to dicks 
-          {
+         
+         if(Input.GetKeyDown("f"))
+         
+         {
             Debug.Log("----------------------------------------------------------------------------------------------");
             Debug.Log("You begin to drive towards dicks knowing that they have a bow");
             Debug.LOg("See ever since you were a kid... you were really good with a bow");
             Debug.Log("Your father had been going hunting ever since you were real young");
             Debug.Log("So you were a really good hunter");
             Debug.Log("-------time skip---------");
-            Debug.Log("you get to dicks and 
+            Debug.Log("you pull over just before you reach dicks. You see all theses creatures roaming around");
+            Debug.Log("You look over at Matt and wake him up. 'theres too many creatures to just walk out'");
+            Debug.Log("Matt looks out the window seeing the creatures. 'I have two ideas'");
+            Debug.Log("'We can kill one of them and use their organs or we just make a run for it'");
+            Debug.Log("you can 'h' go kill some of those creatures or 'i' just make a run for it");
+        }
+       
+        
+        //going out and killing dad
+        
+        if(Input.GetKeyDown("g"))
+        {
+            Debug.Log("-------------------------------------------------------------------------------------------------------");
+            Debug.Log("You stop the car and the creatures are coming all around the car");
+            Debug.Log("'im going to go kill dad......we can't leave him like this'");
+            Debug.Log("Matts telling you not to do this and that it'll get you killed");
+            Debug.Log("You ignore him and grab a small hand gun. You step out of the car");
+            Debug.Log("A creature bites you. You shoot the gun at your dad");
+            Debug.Log("You miss and the creatures are coming to bite you");
+            Debug.Log("Sadly you become one of those creatures");
+         }
+         
+         
+         //going to kill all those creatures 
+         if(Input.GetKeyDown("h"))
+         {
+            Debug.Log("-----------------------------------------------------------------------------------------------");
+            Debug.Log("'Lets go and kill some of these cratures' Matt nods at you");
+            Debug.Log("You hop out of the car and kill 3 creatures that are close to you");
+            Debug.Log("You cut open the creatures and use their organs as a cover up");
+            Debug.Log("'im going to go and get the bow...stay here so you don't get hurt'");
+            Debug.Log("You start walking over to the store");
+            Debug.Log("The creatures don't seem to be paying attention to you");
+            Debug.Log("You finially get inside and head over to bow section");
+            Debug.Log("You grab the crossbow that is just sitting there and you grab it");
+            Debug.Log("You get the crossbow and start to grab the arrows");
+            Debug.Log("you can 'j' go grab a bag or 'k' just go to the car");
+          }
+          
+          //just making a run for it
+          if(Input.GetKeyDown("i"))
+          
+          {
+             Debug.Log("--------------------------------------------------------------------------------------------");
+             Debug.Log("You open the door and make a run for the store");
+             Debug.Log("The creatures are hot on your tail");
+             Debug.Log("As your nearing the store one of those creatures come out of know where");
+             Debug.Log("That one creature gets you and bites you");
+             Debug.Log("You forgot to bring a weapon and is getting attack");
+             Debug.Log("The ones that were beind you have reached you");
+             Debug.Log("You're being eaten alive");
+           }
            
+           //go and grab a bag....
+           if(Input.GetKeyDown("j"))
+           
+           {
+             Debug.Log("--------------------------------------------------------------------------");
+             Debug.Log("As your leaving the store you see a bag that can hold all the arrows");
+             Debug.Log("You grab the bag and put the arrows inside the bag");
+             Debug.Log("You begin making your back to the car");
+             Debug.Log("You make it to the car and start taking off the clothes");
+             Debug.Log("You grab new clothes and put them on");
+             Debug.Log("'Where to next Matt'");
+             Debug.Log("Matt looks over to you 'We should go to the beach house');
+             Debug.Log("press 'l' to go to the beach house);
+           }  
+          
+          //just go to the car
+          
+          if(Input.GetKeyDown("k"))
+          
+          {
+            Debug.Log("----------------------------------------------------------------------");
+            Debug.Log("you walk right past the bags and just want to get to the car");
+            Debug.Log("
             
             
         
