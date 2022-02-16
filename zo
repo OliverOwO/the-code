@@ -290,7 +290,20 @@
             Debug.Log("They start coming your way and you run");
             Debug.Log("As you look back you see the car speed away....Matts safe");
             Debug.Log("YOu stop running and just stand there cause you're already going to die");
-            Debug.Log("
+            Debug.Log("The creatures get to you and you're getting eaten alive");
+       }
+       
+       //You stay inside
+       if(Input.GetKeyDown("r"))
+       {
+          Debug.Log("--------------------------------------------------------------------------------------");
+          Debug.Log("'You're not going to go risk your life for us'");
+          Debug.Log("you stay inside the car and all of you stay in there");
+          Debug.Log("---Time skip----");
+          Debug.Log("You've ran out of food and there is no where else to go");
+          Debug.Log("you guys are starving");
+          Debug.Log("You guys starve to death and all of you are just dead in the car");
+      }    
             
             
           
