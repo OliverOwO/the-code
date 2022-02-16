@@ -252,6 +252,45 @@
          
          
          //just fighting it through 
+         
+         if(Input.GetKeyDown("p"))
+         {
+            Debug.Log("-----------------------------------------------------------------------------------------");
+            Debug.Log("You look at the group 'we are going to fight our way through this'");
+            Debug.Log("You get the car all lined up and press your foot on the gas");
+            Debug.Log("The car goes at a very fast speed speeding over to the creatures");
+            Debug.Log("The car hits the first couple of creatures but it stuck on the bodies that are under neither the car");
+            Debug.Log("Theres no way out...'Levi...We are going to die..' Matt looks at you");
+            Debug.Log("You look at him....this was a bad idea..you guys have no way out");
+            Debug.Log("You can 'q' open the door to get them away or 'r' all of you starve");
+         }
+         
+         //the continuation of the story
+         if(Input.GetKeyDown("p"))
+         
+        {
+            Debug.Log("-------------------------------------------------------------------------------------");
+            Debug.Log("-----Sometime has passed----")
+            Debug.Log("It's been a couple of months since the creatures had taken over the world");
+            Debug.Log("More people have join your group.");
+            Debug.Log("You all work with each other. It's like a community");
+            Debug.Log("You're still hoping that this is all a dream and that you're going to wake up from it");
+            Debug.Log("'You've done good Levi'Matt tells you as he hugs you");
+        }
+        
+        //you opened the door 
+        if(Input.GetKeyDown("q"))
+        
+        {
+            Debug.Log("-------------------------------------------------------------------");
+            Debug.Log("'You guys are going to get out of this'");
+            Debug.Log("Before Matt can even tell you no..You open the door and slam it sht");
+            Debug.Log("You're getting scratched by the creatures and you some how make you're way out of the group");
+            Debug.Log("you start making moise so that they'll come your way");
+            Debug.Log("They start coming your way and you run");
+            Debug.Log("As you look back you see the car speed away....Matts safe");
+            Debug.Log("YOu stop running and just stand there cause you're already going to die");
+            Debug.Log("
             
             
           
